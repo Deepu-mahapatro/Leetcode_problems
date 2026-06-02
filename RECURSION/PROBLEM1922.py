@@ -8,7 +8,7 @@ class Solution:
             return 1
         #HANDLE NEGATIVE NUMBER
         if exp<0:
-            return 1/power(base,-exp)
+            return 1/self.power(base,-exp)
         #RECURSIVE CASE
         half=self.power(base,exp//2)
         #EVEN POWER
