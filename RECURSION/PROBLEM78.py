@@ -23,3 +23,4 @@ class Solution:
 obj=Solution()
 nums=[1,2,3]
 print(obj.subsets(nums))
+print(obj.subsets(nums))
