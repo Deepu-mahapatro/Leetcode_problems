@@ -5,7 +5,7 @@ class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         #SORT ARRAY SO THAT DUPLICATES BECOME ADJACENT
         nums.sort()
-        #STRIRE ALL UNIQUE SUBSETS
+        #STORE ALL UNIQUE SUBSETS
         result=[]
         #BACKTRACK FUNCTION
         def backtrack(start,subset):
